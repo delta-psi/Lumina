@@ -56,7 +56,7 @@
     "pin true, match:title Picture(-| )in(-| )[Pp]icture"
 
     # Steam
-    "rounding 10, match:class steam"
+    "rounding 10, title:, match:class steam"
     "float true, match:title Friends List, class:steam"
     "immediate true, match:class steam_app_[0-9]+"
     "idle_inhibit always, match:class steam_app_[0-9]+"
@@ -65,7 +65,7 @@
     "float true, match:class com-atlauncher-App, match:title ATLauncher Console"
 
     # Autodesk Fusion 360
-    "no_blur, match:title Fusion360|(Marking Menu), match:class fusion360\\.exe"
+    "no_blur true, match:title Fusion360|(Marking Menu), match:class fusion360\\.exe"
 
     # Ugh xwayland popups
     "no_dim true, match:xwayland 1, match:title win[0-9]+"
