@@ -56,10 +56,10 @@
     "pin true, match:title Picture(-| )in(-| )[Pp]icture"
 
     # Steam
-    "rounding 10, title:, match:class steam"
-    "float true, match:title Friends List, class:steam"
-    "immediate true, match:class steam_app_[0-9]+"
-    "idle_inhibit always, match:class steam_app_[0-9]+"
+    # "rounding 10, match:class steam"
+    # "float true, match:title Friends List, class:steam"
+    # "immediate true, match:class steam_app_[0-9]+"
+    # "idle_inhibit always, match:class steam_app_[0-9]+"
 
     # ATLauncher  console
     "float true, match:class com-atlauncher-App, match:title ATLauncher Console"
