@@ -5,7 +5,7 @@
     "QT_AUTO_SCREEN_SCALE_FACTOR, 1"
     "XCURSOR_THEME, $cursorTheme"
     "XCURSOR_SIZE, $cursorSize"
-    "QS_ICON_THEME, candy"
+    # "QS_ICON_THEME, candy"
 
     # ######## Toolkit backends ########
     "GDK_BACKEND, wayland,x11"
