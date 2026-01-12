@@ -13,7 +13,7 @@
     home.packages = lib.optional mod.settings.theme.enableGtk pkgs.adw-gtk3;
     gtk = {
       # iconTheme.package = pkgs.papirus-icon-theme;
-      iconTheme.package = pkgs.candy-icons
+      iconTheme.package = pkgs.candy-icons;
     };
   };
 }
