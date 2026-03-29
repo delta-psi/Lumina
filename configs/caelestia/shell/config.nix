@@ -35,18 +35,18 @@
       };
       transparency = {
         base = 0.85;
-        enabled = false;
+        enabled = true;
         layers = 0.4;
       };
     };
     background = {
       desktopClock = {
-        enabled = false;
+        enabled = true;
       };
       enabled = true;
       visualiser = {
         autoHide = true;
-        enabled = false;
+        enabled = true;
         rounding = 1;
         spacing = 1;
       };
@@ -102,7 +102,7 @@
       };
       showOnHover = true;
       status = {
-        showAudio = false;
+        showAudio = true;
         showBattery = true;
         showBluetooth = true;
         showKbLayout = false;
@@ -252,7 +252,7 @@
           ];
           dangerous = false;
           description = "Change shell transparency";
-          enabled = false;
+          enabled = true;
           icon = "opacity";
           name = "Transparency";
         }
@@ -352,7 +352,7 @@
       hiddenApps = [];
       maxShown = 7;
       maxWallpapers = 9;
-      showOnHover = false;
+      showOnHover = true;
       specialPrefix = "@";
       useFuzzy = {
         actions = false;
@@ -371,7 +371,7 @@
       clearThreshold = 0.3;
       defaultExpireTimeout = 5000;
       expandThreshold = 20;
-      expire = false;
+      expire = true;
     };
     osd = {
       enableBrightness = true;
@@ -427,6 +427,7 @@
     };
     sidebar = {
       dragThreshold = 80;
+      showOnHover = true;
       enabled = true;
     };
     utilities = {
@@ -446,7 +447,7 @@
         vpnChanged = true;
       };
       vpn = {
-        enabled = false;
+        enabled = true;
         provider = [
           {
             displayName = "Wireguard (Your VPN)";
