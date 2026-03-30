@@ -34,7 +34,7 @@
         scale = 1;
       };
       transparency = {
-        base = 0.75;
+        base = 0.80;
         enabled = true;
         layers = 0.4;
       };
@@ -46,7 +46,7 @@
       enabled = true;
       visualiser = {
         autoHide = true;
-        enabled = false;
+        enabled = true;
         rounding = 1;
         spacing = 1;
       };
