@@ -102,7 +102,7 @@
       };
       showOnHover = true;
       status = {
-        showAudio = true;
+        showAudio = false;
         showBattery = true;
         showBluetooth = true;
         showKbLayout = false;
@@ -369,7 +369,7 @@
     notifs = {
       actionOnClick = false;
       clearThreshold = 0.3;
-      defaultExpireTimeout = 5000;
+      defaultExpireTimeout = 2000;
       expandThreshold = 20;
       expire = true;
     };
