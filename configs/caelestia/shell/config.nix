@@ -46,7 +46,7 @@
       enabled = true;
       visualiser = {
         autoHide = true;
-        enabled = true;
+        enabled = false;
         rounding = 1;
         spacing = 1;
       };
