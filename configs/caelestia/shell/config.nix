@@ -34,7 +34,7 @@
         scale = 1;
       };
       transparency = {
-        base = 0.85;
+        base = 0.75;
         enabled = true;
         layers = 0.4;
       };
@@ -252,7 +252,7 @@
           ];
           dangerous = false;
           description = "Change shell transparency";
-          enabled = true;
+          enabled = false;
           icon = "opacity";
           name = "Transparency";
         }
@@ -442,7 +442,7 @@
         dndChanged = true;
         gameModeChanged = true;
         kbLayoutChanged = true;
-        nowPlaying = false;
+        nowPlaying = true;
         numLockChanged = true;
         vpnChanged = true;
       };
