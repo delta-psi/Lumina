@@ -171,8 +171,8 @@ in {
     "$kbWindowGroupCyclePrev, cyclenext, prev"
     "Ctrl+Alt, Tab, changegroupactive, f"
     "Ctrl+Shift+Alt, Tab, changegroupactive, b"
-    "Super, Minus, splitratio, -0.1"
-    "Super, Equal, splitratio, 0.1"
+    # "Super, Minus, splitratio, -0.1"
+    # "Super, Equal, splitratio, 0.1"
   ];
 
   bindm = [
