@@ -12,7 +12,7 @@
     "QT_QPA_PLATFORM, wayland;xcb"
     "SDL_VIDEODRIVER, wayland,x11,windows"
     "CLUTTER_BACKEND, wayland"
-    "ELECTRON_OZONE_PLATFORM_HINT, auto"
+    "ELECTRON_OZONE_PLATFORM_HINT, wayland"
 
     # ####### XDG specifications #######
     "XDG_CURRENT_DESKTOP, Hyprland"
