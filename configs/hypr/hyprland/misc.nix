@@ -1,7 +1,7 @@
 {...}: {
   misc = {
 
-    vfr = true;
+    # vfr = true;
     vrr = 1;
 
     animate_manual_resizes = false;
