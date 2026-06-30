@@ -19,7 +19,7 @@ in {
 
   # Launcher binds second
   _2launcher = {
-    bindi = ["Super, Super_L, global, caelestia:launcher"];
+    bindr = ["Super, Super_L, global, caelestia:launcher"];
 
     bindin = [
       "Super, catchall, global, caelestia:launcherInterrupt"
